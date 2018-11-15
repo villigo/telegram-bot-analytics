@@ -43,11 +43,3 @@ text = f"""
 
 for chat_id in chat_ids:
     bot.sendMessage(chat_id=chat_id, text=text)
-
-print('Сообщение отправилось на следующие id:', chat_ids)
-
-
-# for last_update in bot.getUpdates():
-#     chat_id = last_update.message.chat.id
-#     print(chat_id)
-#     bot.sendMessage(chat_id=chat_id, text=text)
